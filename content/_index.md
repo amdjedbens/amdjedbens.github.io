@@ -63,14 +63,31 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: ML intern
-          company: IRT systemx
+          company: IRT SystemX
           company_url: ''
-          company_logo: org-x
+          company_logo: org-gc
           location: France
           date_start: '2024-03-01'
           date_end: ''
-          description: Evaluatign the effectiveness of AI models in terms of precision, security, and privacy protection.
-  design:
+          description: |2-
+              Responsibilities include:
+
+              * Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
+              * Modelling
+              * Deploying
+        - title: ML intern
+          company: Epsidy
+          company_url: ''
+          company_logo: org-x
+          location: France
+          date_start: '2023-02-01'
+          date_end: '2023-07-31'
+          description: |2-
+              Responsibilities include:
+
+              * Improved inference time of the deep learning optimized model from 4s to 3ms during my internship.
+              * Deploy AI models into realtime production in Nvidia Jetson Nano
+    design:
       columns: '2'
   - block: accomplishments
     content:
