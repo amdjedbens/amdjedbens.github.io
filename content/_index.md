@@ -97,7 +97,7 @@ sections:
               Responsibilities include:
               * Development of an Ansible playbook to automate the installation and configuration of a penetration test environment.
               * Conducted thorough testing and bug fixes, ensuring software reliability.
-design:
+  design:
       columns: '2'
   - block: accomplishments
     content:
