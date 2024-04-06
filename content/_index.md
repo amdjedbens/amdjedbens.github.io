@@ -84,10 +84,8 @@ sections:
           date_end: '2023-07-31'
           description: |2-
               Responsibilities include:
-
               * Improved inference time of the deep learning optimized model from 4s to 3ms during my internship.
               * Deploy AI models into realtime production in Nvidia Jetson Nano
-
         - title: Systems Automation Trainee
           company: Realistic-Security
           company_url: ''
@@ -97,7 +95,6 @@ sections:
           date_end: '2021-10-31'
           description: |2-
               Responsibilities include:
-              
               * Development of an Ansible playbook to automate the installation and configuration of a penetration test environment.
               * Conducted thorough testing and bug fixes, ensuring software reliability.
 design:
