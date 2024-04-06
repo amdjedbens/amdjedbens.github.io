@@ -69,9 +69,8 @@ sections:
           location: France
           date_start: '2024-03-01'
           date_end: ''
-          description: |2-
+          description: |2
               Responsibilities include:
-
               - Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
               - Modelling
               - Deploying
