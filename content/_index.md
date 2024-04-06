@@ -62,18 +62,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: ML intern
-          company: IRT SystemX
+        - title: CEO
+          company: GenCoin
           company_url: ''
           company_logo: org-gc
-          location: France
-          date_start: '2024-03-01'
+          location: California
+          date_start: '2021-01-01'
           date_end: ''
-          description: |2
+          description: |2-
               Responsibilities include:
-              - Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
-              - Modelling
-              - Deploying
+
+              * Analysing
+              * Modelling
+              * Deploying
   design:
       columns: '2'
   - block: accomplishments
