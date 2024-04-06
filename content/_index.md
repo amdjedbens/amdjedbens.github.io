@@ -62,28 +62,45 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: ML intern
+          company: IRT SystemX
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: France
+          date_start: '2024-03-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
+              * Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: ML intern
+          company: Epsidy
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
+          location: France
+          date_start: '2023-02-01'
+          date_end: '2023-07-31'
+          description: |2-
+              Responsibilities include:
+
+              * Improved inference time of the deep learning optimized model from 4s to 3ms during my internship.
+              * Deploy AI models into realtime production in Nvidia Jetson Nano
+
+        - title: Systems Automation Trainee
+          company: Realistic-Security
+          company_url: ''
+          company_logo: org-x
+          location: Algiers
+          date_start: '2021-09-01'
+          date_end: '2021-10-31'
+          description: |2-
+              Responsibilities include:
+              
+              * Development of an Ansible playbook to automate the installation and configuration of a penetration test environment.
+              * Conducted thorough testing and bug fixes, ensuring software reliability.
+design:
       columns: '2'
   - block: accomplishments
     content:
@@ -189,7 +206,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
-      
+
 # - block: collection
 #   id: featured
 #   content:
