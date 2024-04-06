@@ -72,9 +72,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
-              * Modelling
-              * Deploying
+              - Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
+              - Modelling
+              - Deploying
   design:
       columns: '2'
   - block: accomplishments
