@@ -18,12 +18,12 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'A highly-motivated ML Engineer with a passion for developing innovative solutions to complex problems.'
+    twitter: 'AmdjedBensalah'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-GDLEVFREKR'
     baidu_tongji: ''
-    google_tag_manager: ''
+    google_tag_manager: 'GT-K4VMGSLB'
     microsoft_clarity: ''
   verification:
     google: ''

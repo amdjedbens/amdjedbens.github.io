@@ -29,7 +29,7 @@ bio: My research interests include Privacy-Preserving ML.
 
 # Interests to show in About widget
 interests:
-  - Learning more AI/MLOps
+  - Learning more about AI/MLOps
   - Privacy-Preserving & Secure AI
   - CTF/AI Competitions
 
@@ -75,9 +75,18 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume_AmdjedBensalah.pdf
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/amdjedbens
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/amdj3d
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/AmdjedBensalah
@@ -87,25 +96,17 @@ social:
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=uRlalbcAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/amdjedbens
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/amdj3d
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Amdjed is currently pursuing his Master's degree in AI at Université Paris-Saclay, where he is actively engaged in learning about the latest trends and technologies in AI. 
-Alongside his academic pursuits, he has showcased his skills and creativity by participating in various coding competitions and hackathons, earning recognition and awards.
+Standing between AI, cybersec and everything that has to improve codes and lives.
 
-As an AI/MLOps engineer, Amdjed is passionate about applying ML to address real-world problems and make a meaningful difference. With over a year of experience in developing and deploying AI models, he has honed his expertise in practical applications of AI technology.
+Amdjed is currently pursuing his Master's degree in AI at Université Paris-Saclay. 
+
+As an AI/MLOps engineer, I'm passionate about applying ML to address real-world problems and make a meaningful difference. 
 {style="text-align: justify;"}
