@@ -110,11 +110,11 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: 'https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/'
+        - certificate_url: https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/
           date_end: ''
           date_start: '2022-11-9'
           description: 7th place for "OctaC0re" at CSAW’22 CTF Finals held at NYUAD, Abu Dhabi, UAE.
-          icon: edx
+          icon: ''
           organization: CSAW
           organization_url: 
           title: CSAW'22 finalists
@@ -123,18 +123,18 @@ sections:
           date_end: ''
           date_start: '2022-02-15'
           description: '1st place for "OctaC0re" at Hash Code Quals held at Alphabit Hub, ESI SBA, ALGERIA.'
-          icon: datacamp
+          icon: ''
           organization: Google HashCode
-          organization_url: 
+          organization_url: ''
           title: 'Hash Code - Google's Coding Competitions'
           url: ''
         - certificate_url: https://ctftime.org/stats/2022/DZ
           date_end: ''
           date_start: '2022-01-01'
           description: '3rd place for "OctaC0re" on **national** level with more than 23 cybersecurity competitions over 2022.'
-          icon: datacamp
+          icon: ''
           organization: CTFtime
-          organization_url: https://www.datacamp.com
+          organization_url: ''
           title: '2022 - Capture the flag competitions'
           url: ''
         - certificate_url: https://ctftime.org/stats/2021/DZ
@@ -143,7 +143,7 @@ sections:
           description: '2nd place for "OctaC0re" on **national** level with more than 25 cybersecurity competitions over 2021.'
           icon: 
           organization: CTFtime
-          organization_url: 
+          organization_url: ''
           title: '2021 - Capture the flag competitions'
           url: ''
           # coursera cert https://coursera.org/share/2929dec1cf3395703e848871f4805673
