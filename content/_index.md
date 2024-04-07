@@ -65,7 +65,7 @@ sections:
         - title: ML intern
           company: IRT Systemx
           company_url: 'https://www.irt-systemx.fr/'
-          company_logo: org-gc
+          company_logo: 
           location: France
           date_start: '2024-03-01'
           date_end: ''
@@ -78,13 +78,23 @@ sections:
         - title: ML intern
           company: Epsidy
           company_url: 'https://www.epsidy.com/'
-          company_logo: org-x
+          company_logo: 
           location: France
           date_start: '2023-02-01'
-          date_end: '2020-07-31'
+          date_end: '2023-07-31'
           description: |2-
               * Worked on optimizing DL models (ECG signal segmentation) for real-time
               * Deploy AI models into realtime production in Nvidia Jetson Nano
+        - title: Systems automation trainee
+          company: Realistic-Security
+          company_url: 'https://www.realistic-security.com/'
+          company_logo: 
+          location: Remote
+          date_start: '2021-09-01'
+          date_end: '2021-10-31'
+          description: |2-
+              * Development of an Ansible playbook to automate the installation and configuration of a penetration test environment.
+              * Conducted thorough testing and bug fixes, ensuring software reliability
     design:
       columns: '2'
   - block: accomplishments
@@ -100,33 +110,52 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.epsidy.com
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-11-09'
           description: ''
           icon: coursera
-          organization: Coursera
+          organization: CSAW'22
           organization_url: https://www.coursera.org
           title: Neural Networks and Deep Learning
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: 'https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/'
+          date_end: ''
+          date_start: '2022-11-9'
+          description: 7th place for "OctaC0re" at CSAW’22 CTF Finals held at NYUAD, Abu Dhabi, UAE.
+          icon: edx
+          organization: CSAW
+          organization_url: 
+          title: CSAW'22 finalists
+          url: ''
+        - certificate_url: https://www.linkedin.com/posts/amdj3dax_hashcode-problemsolving-google-activity-6903327826989125633-axeX?utm_source=share&utm_medium=member_desktop
+          date_end: ''
+          date_start: '2022-02-15'
+          description: '1st place for "OctaC0re" at Hash Code Quals held at Alphabit Hub, ESI SBA, ALGERIA.'
+          icon: datacamp
+          organization: 
+          organization_url: 
+          title: 'Hash Code - Google's Coding Competitions'
+          url: ''
+        - certificate_url: https://ctftime.org/stats/2022/DZ
+          date_end: ''
+          date_start: '2022-01-01'
+          description: '3rd place for "OctaC0re" on **national** level with more than 23 cybersecurity competitions over 2022.'
+          icon: datacamp
+          organization: 
+          organization_url: https://www.datacamp.com
+          title: '2021 - Capture the flag competitions'
+          url: ''
+        - certificate_url: https://coursera.org/share/2929dec1cf3395703e848871f4805673
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          description: '2nd place for "OctaC0re" on **national** level with more than 25 cybersecurity competitions over 2021.'
+          icon: Coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: 'Machine Learning'
           url: ''
+        
     design:
       columns: '2'
   - block: collection
