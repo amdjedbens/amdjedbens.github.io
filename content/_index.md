@@ -97,46 +97,48 @@ sections:
               * Conducted thorough testing and bug fixes, ensuring software reliability
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/
-          date_start: '2022-11-9'
-          description: 7th place for "OctaC0re" at CSAW’22 CTF Finals held at NYUAD, Abu Dhabi, UAE.
-          organization: CSAW
-          title: CSAW'22 finalists
 
-        - certificate_url: https://www.linkedin.com/posts/amdj3dax_hashcode-problemsolving-google-activity-6903327826989125633-axeX?utm_source=share&utm_medium=member_desktop
-          date_start: '2022-02-15'
-          description: '1st place for "OctaC0re" at Hash Code Quals held at Alphabit Hub, ESI SBA, ALGERIA.'
-          organization: Google HashCode
-          title: 'Hash Code - Google Coding Competitions'
+#   - block: accomplishments
+#     content:
+#       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+#       title: 'Accomplish&shy;ments'
+#       subtitle:
+#       # Date format: https://docs.hugoblox.com/customization/#date-format
+#       date_format: Jan 2006
+#       # Accomplishments.
+#       #   Add/remove as many `item` blocks below as you like.
+#       #   `title`, `organization`, and `date_start` are the required parameters.
+#       #   Leave other parameters empty if not required.
+#       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#       items:
+#         - certificate_url: https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/
+#           date_start: '2022-11-9'
+#           description: 7th place for "OctaC0re" at CSAW’22 CTF Finals held at NYUAD, Abu Dhabi, UAE.
+#           organization: CSAW
+#           title: CSAW'22 finalists
 
-        - certificate_url: https://ctftime.org/stats/2022/DZ
-          date_start: '2022-01-01'
-          description: '3rd place for "OctaC0re" on **national** level with more than 23 cybersecurity competitions over 2022.'
-          organization: CTFtime
-          title: '2022 - Capture the flag competitions'
+#         - certificate_url: https://www.linkedin.com/posts/amdj3dax_hashcode-problemsolving-google-activity-6903327826989125633-axeX?utm_source=share&utm_medium=member_desktop
+#           date_start: '2022-02-15'
+#           description: '1st place for "OctaC0re" at Hash Code Quals held at Alphabit Hub, ESI SBA, ALGERIA.'
+#           organization: Google HashCode
+#           title: 'Hash Code - Google Coding Competitions'
 
-        - certificate_url: https://ctftime.org/stats/2021/DZ
-          date_start: '2021-01-01'
-          description: '2nd place for "OctaC0re" on **national** level with more than 25 cybersecurity competitions over 2021.'
-          organization: CTFtime
-          title: '2021 - Capture the flag competitions'
-          # coursera cert https://coursera.org/share/2929dec1cf3395703e848871f4805673
+#         - certificate_url: https://ctftime.org/stats/2022/DZ
+#           date_start: '2022-01-01'
+#           description: '3rd place for "OctaC0re" on **national** level with more than 23 cybersecurity competitions over 2022.'
+#           organization: CTFtime
+#           title: '2022 - Capture the flag competitions'
+
+#         - certificate_url: https://ctftime.org/stats/2021/DZ
+#           date_start: '2021-01-01'
+#           description: '2nd place for "OctaC0re" on **national** level with more than 25 cybersecurity competitions over 2021.'
+#           organization: CTFtime
+#           title: '2021 - Capture the flag competitions'
+#           # coursera cert https://coursera.org/share/2929dec1cf3395703e848871f4805673
         
-    design:
-      columns: '2'
+#     design:
+#       columns: '2'
+
   - block: collection
     id: posts
     content:
