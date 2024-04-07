@@ -110,15 +110,6 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.epsidy.com
-          date_end: ''
-          date_start: '2023-11-09'
-          description: ''
-          icon: coursera
-          organization: CSAW'22
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
         - certificate_url: 'https://www.linkedin.com/feed/update/urn:li:activity:7001183196721618945/'
           date_end: ''
           date_start: '2022-11-9'
