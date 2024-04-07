@@ -126,7 +126,7 @@ sections:
           icon: ''
           organization: Google HashCode
           organization_url: ''
-          title: 'Hash Code - Google's Coding Competitions'
+          title: 'Hash Code - Google Coding Competitions'
           url: ''
         - certificate_url: https://ctftime.org/stats/2022/DZ
           date_end: ''
