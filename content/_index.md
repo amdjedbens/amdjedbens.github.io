@@ -64,7 +64,7 @@ sections:
       items:
         - title: ML intern
           company: IRT Systemx
-          company_url: ''
+          company_url: 'https://www.irt-systemx.fr/'
           company_logo: org-gc
           location: France
           date_start: '2024-03-01'
@@ -72,17 +72,19 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Analysing
+              * Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+        - title: ML intern
+          company: Epsidy
+          company_url: 'https://www.epsidy.com/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: France
+          date_start: '2023-02-01'
+          date_end: '2020-07-31'
+          description: |2-
+              * Worked on optimizing DL models (ECG signal segmentation) for real-time
+              * Deploy AI models into realtime production in Nvidia Jetson Nano
     design:
       columns: '2'
   - block: accomplishments
