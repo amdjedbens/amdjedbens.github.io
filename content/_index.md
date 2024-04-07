@@ -62,31 +62,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: ML intern
-          company: IRT SystemX
+        - title: CEO
+          company: GenCoin
           company_url: ''
           company_logo: org-gc
-          location: France
-          date_start: '2024-03-01'
+          location: California
+          date_start: '2021-01-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Evaluating the effectiveness of AI models in terms of precision, security, and privacy protection.
+              * Analysing
               * Modelling
               * Deploying
-        - title: ML intern
-          company: Epsidy
+        - title: Professor of Semiconductor Physics
+          company: University X
           company_url: ''
           company_logo: org-x
-          location: France
-          date_start: '2023-02-01'
-          date_end: '2023-07-31'
-          description: |2-
-              Responsibilities include:
-
-              * Improved inference time of the deep learning optimized model from 4s to 3ms during my internship.
-              * Deploy AI models into realtime production in Nvidia Jetson Nano
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
@@ -193,64 +189,85 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
-
-# - block: collection
-#   id: featured
-#   content:
-#     title: Featured Publications
-#     filters:
-#       folders:
-#         - publication
-#       featured_only: true
-#   design:
-#     columns: '2'
-#     view: card
-# - block: collection
-#   content:
-#     title: Recent Publications
-#     text: |-
-#       {{% callout note %}}
-#       Quickly discover relevant content by [filtering publications](./publication/).
-#       {{% /callout %}}
-#     filters:
-#       folders:
-#         - publication
-#       exclude_featured: true
-#   design:
-#     columns: '2'
-#     view: citation
-
-
-#  - block: collection
-#    id: talks
-#    content:
-#      title: Recent & Upcoming Talks
-#      filters:
-#        folders:
-#          - event
-#    design:
-#      columns: '2'
-#      view: compact
-#  - block: tag_cloud
-#    content:
-#      title: Popular Topics
-#    design:
-#      columns: '2'
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+  - block: tag_cloud
+    content:
+      title: Popular Topics
+    design:
+      columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        I’d love to get to know you. Perhaps we can collaborate on a project or just have a coffee together.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: a.bensalah@esi-sba.dz
+      email: test@example.org
+      phone: 888 888 88 88
+      appointment_url: 'https://calendly.com'
+      address:
+        street: 450 Serra Mall
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
+      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      office_hours:
+        - 'Monday 10:00 to 13:00'
+        - 'Wednesday 09:00 to 10:00'
+      # Choose a map provider in `params.yaml` to show a map from these coordinates
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'  
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/AmdjedBensalah'
-        
+          link: 'https://twitter.com/Twitter'
+        - icon: skype
+          icon_pack: fab
+          name: Skype Me
+          link: 'skype:echo123?call'
+        - icon: video
+          icon_pack: fas
+          name: Zoom Me
+          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
