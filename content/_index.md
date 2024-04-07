@@ -124,7 +124,7 @@ sections:
           date_start: '2022-02-15'
           description: '1st place for "OctaC0re" at Hash Code Quals held at Alphabit Hub, ESI SBA, ALGERIA.'
           icon: datacamp
-          organization: 
+          organization: Google HashCode
           organization_url: 
           title: 'Hash Code - Google's Coding Competitions'
           url: ''
@@ -133,19 +133,20 @@ sections:
           date_start: '2022-01-01'
           description: '3rd place for "OctaC0re" on **national** level with more than 23 cybersecurity competitions over 2022.'
           icon: datacamp
-          organization: 
+          organization: CTFtime
           organization_url: https://www.datacamp.com
-          title: '2021 - Capture the flag competitions'
+          title: '2022 - Capture the flag competitions'
           url: ''
-        - certificate_url: https://coursera.org/share/2929dec1cf3395703e848871f4805673
+        - certificate_url: https://ctftime.org/stats/2021/DZ
           date_end: ''
           date_start: '2021-01-01'
           description: '2nd place for "OctaC0re" on **national** level with more than 25 cybersecurity competitions over 2021.'
-          icon: Coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: 'Machine Learning'
+          icon: 
+          organization: CTFtime
+          organization_url: 
+          title: '2021 - Capture the flag competitions'
           url: ''
+          # coursera cert https://coursera.org/share/2929dec1cf3395703e848871f4805673
         
     design:
       columns: '2'
