@@ -9,18 +9,16 @@ tags:
 date: '2023-07-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=uRlalbcAAAAJ&authuser=1&citation_for_view=uRlalbcAAAAJ:u5HHmVD_uO8C'
+external_link: ''
 
 #image:
 #  caption: Photo by rawpixel on Unsplash
 #  focal_point: Smart
  
 image:
-  preview_only: true
+  #preview_only: true
   caption: Schema of the proposed DL architecture for R-peak detection (By Epsidy)
   focal_point: Smart
-  preview_only: true
-  caption:
 
 links:
   - icon: twitter
