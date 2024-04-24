@@ -37,6 +37,8 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 #slides: 
 ---
+![Schema of the proposed DL architecture for R-peak detection (By Epsidy)](UNetDiagram1.png "Schema of the proposed DL architecture for R-peak detection (By Epsidy)")
+
 * Developed a real-time R-peak detection app using deep learning on edge devices
 * Optimized and deployed ML models for efficient inference
 * Worked on real-time ECG signal analysis and segmentation for cardiologist diagnosis
