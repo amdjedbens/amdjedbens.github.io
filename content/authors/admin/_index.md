@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: ML intern
+role: ML intern @ IRT SystemX
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: IRT SystemX
-    url: https://www.irt-systemx.fr/
+#organizations:
+#  - name: IRT SystemX
+#    url: https://www.irt-systemx.fr/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Privacy-Preserving ML.
@@ -31,7 +31,7 @@ bio: My research interests include Privacy-Preserving ML.
 interests:
   - Learning more about AI/MLOps
   - Privacy-Preserving & Secure AI
-  - CTF/AI Competitions
+  - CTF/AI Competitions.
 
 # Education to show in About widget
 education:
@@ -46,11 +46,11 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Technical (reach me for my cv) 
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
       - name: Machine Learning
@@ -59,15 +59,15 @@ skills:
         icon: chart-line
         icon_pack: fas
       
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
+#  - name: Hobbies
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name: Hiking
+#        description: ''
+#        percent: 60
+#        icon: person-hiking
+#        icon_pack: fas
 
 
 # Social/Academic Networking
@@ -75,12 +75,12 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume_AmdjedBensalah.pdf
+  #- icon: cv
+  #  icon_pack: ai
+  #  link: #uploads/resume_AmdjedBensalah.pdf
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'amdjedbens01@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/amdjedbens
