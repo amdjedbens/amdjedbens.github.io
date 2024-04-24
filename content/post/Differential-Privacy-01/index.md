@@ -1,5 +1,5 @@
 ---
-title: Differential Privacy - An Overview
+title: Differential Privacy — Concepts and definitions
 subtitle: In this blog post, we'll get into the world of Differential Privacy, a crucial concept in Privacy Preserving. We'll break down complex concepts into simple, easy-to-understand language, exploring key concepts such as Local and Global Differential Privacy, noise injection, and more. 
 
 links:
