@@ -26,4 +26,4 @@ I’ve worked last weekend on a project that is around fine-tuning GPT-3 by Open
 
 Just think about the possibilities of asking GPT-3 questions and receiving answers that are derived from your very own data source. There are numerous other fascinating use cases to explore!
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7051946202128343040" height="760" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7051946202128343040" height="760" width="760" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
