@@ -70,15 +70,15 @@ It works on achieving this by ensuring that the removal/addition of a single ins
 ##### Now that we know the formal definition, how do we achieve it?
 
 **We can limit Privacy loss by:**
-1. **Adding noise**, we can imagine it as an image the more you add,  the more blurry it gets, the less you can tell.
-2. **Random sampling**, if we randomly sample a fraction of `q` of the data, rather than the **entire** data, then an ($\epsilon1, \delta1$)-diff-private mechanism M, becomes ($q\epsilon1,q \delta1$)-diff-private.
+1. **Adding noise**, we can imagine it as an image the more you add,  the more blurrier it gets, the less you can tell.
+2. **Random sampling**, if we randomly sample a fraction of `q` of the data, rather than the **entire** data, then an (ε1, δ1)-differentially-private mechanism M, becomes (qε1,q δ1)-differentially-private.
 3. **Composition in DP**, came out after figuring out that asking too much **relevant** questions, will end up in revealing information about individuals.
-	1. if we run an ($\epsilon1, \delta1$) diff private mechanism followed by an ($\epsilon2, \delta2$)-diff private, The whole thing is ($\epsilon1 + \epsilon2, \delta1 + \delta2$)-diff private.
+	1. if we run an (ε1, δ1) diff private mechanism followed by an (ε2, δ2)-differentially private, The whole thing is (ε1 + ε2, δ1 + δ2)-differentially private.
 4. More about composition: 
-	1. **Sequential composition**: this form applies when a sequence of differentially private operations are performed one after the other **on the same dataset**. if each individual operation satisfies DP with a certain $\epsilon$ parameter, then the overall $\epsilon$ for the sequence is the sum.
-		- if we have n operations, the overall $\epsilon$ for the sequence is bounded by: $\epsilon$ = $\epsilon_1$ + $\epsilon_2$ + ..... + $\epsilon_n$).
-	2. **Parallel composition**: This form applies when multiple independent DP operations are performed **in parallel** on the same dataset. if each individual op satisfies DP with a certain parameter $\epsilon$, then the overall $\epsilon$ for the parallel ops can be bounded by taking the maximum $\epsilon$ values.
-		- if we have n operations with $\epsilon_1$ + $\epsilon_2$ + ..... + $\epsilon_n$, then the overall $\epsilon$ = max( $\epsilon_1$ + $\epsilon_2$ + ..... + $\epsilon_n$) 
+	1. **Sequential composition**: this form applies when a sequence of differentially private operations are performed one after the other **on the same dataset**. if each individual operation satisfies DP with a certain ε parameter, then the overall ε for the sequence is the sum.
+		- if we have n operations, the overall ε for the sequence is bounded by: ε = ε_1 + ε_2 + ..... + ε_n).
+	2. **Parallel composition**: This form applies when multiple independent DP operations are performed **in parallel** on the same dataset. if each individual op satisfies DP with a certain parameter ε, then the overall ε for the parallel ops can be bounded by taking the maximum ε values.
+		- if we have n operations with ε_1 + ε_2 + ..... + ε_n, then the overall ε = max( ε_1 + ε_2 + ..... + ε_n) 
 
 #### Instantiations of Differential Privacy
 There are two main types of differential privacy instantiation: local and global.
