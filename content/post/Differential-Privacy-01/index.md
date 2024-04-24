@@ -2,6 +2,11 @@
 title: Differential Privacy - An Overview
 subtitle: In this blog post, we'll get into the world of Differential Privacy, a crucial concept in Privacy Preserving. We'll break down complex concepts into simple, easy-to-understand language, exploring key concepts such as Local and Global Differential Privacy, noise injection, and more. 
 
+links:
+  - icon: twitter
+    icon_pack: fab
+    name: Reach me out!
+    url: https://twitter.com/amdjedbensalah
 
 
 # Summary for listings and search engines
@@ -14,7 +19,7 @@ projects: []
 date: '2024-04-24T00:00:00Z'
 
 # Date updated
-lastmod: '2024-03-13T00:00:00Z'
+lastmod: '2024-04-24T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
